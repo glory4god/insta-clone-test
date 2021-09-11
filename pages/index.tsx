@@ -4,7 +4,7 @@ import Container from '../components/ui/Container';
 
 const Main: NextPage = () => {
   return (
-    <div>
+    <>
       <Head>
         <title>instagram</title>
         <meta name="description" content="instagram" />
@@ -13,8 +13,7 @@ const Main: NextPage = () => {
       <Container>
         <h1>메인페이지</h1>
       </Container>
-      <footer></footer>
-    </div>
+    </>
   );
 };
 

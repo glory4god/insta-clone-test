@@ -4,7 +4,7 @@ import s from './Navbar.module.css';
 
 const Navbar = () => {
   return (
-    <div>
+    <>
       <div className={s.paper}>
         <div className={s.navigator}>
           <div>이미지</div>
@@ -12,7 +12,7 @@ const Navbar = () => {
           <div>네비</div>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 
