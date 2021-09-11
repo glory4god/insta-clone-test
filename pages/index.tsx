@@ -11,7 +11,8 @@ const Main: NextPage = () => {
       </Head>
 
       <Container>
-        <h1>메인페이지</h1>
+        <h1>Emotion</h1>
+        <div>emotion hover</div>
       </Container>
       <footer></footer>
     </div>
