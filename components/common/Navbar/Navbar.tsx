@@ -1,5 +1,5 @@
 import React from 'react';
-import Paper from '@material-ui/core/Paper';
+import Image from 'next/image';
 import s from './Navbar.module.css';
 
 const Navbar = () => {
@@ -7,7 +7,13 @@ const Navbar = () => {
     <>
       <div className={s.paper}>
         <div className={s.navigator}>
-          <div>이미지</div>
+          <a href="">
+            <Image
+              src={'/instagram.png'}
+              width={'115px'}
+              height={'32px'}
+              alt={'mainlogo'}></Image>
+          </a>
           <div>검색</div>
           <div>네비</div>
         </div>
